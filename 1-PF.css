@@ -1,0 +1,215 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Serif Display', serif;
+}
+
+/* Meniu */
+header{
+    background-image: url("computer-device-electronics.jpg");
+    max-width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0px 20px 0px;
+}
+.logo img{
+    float: left;
+    width: 90px;
+    height: auto;
+    border: 2px solid black;
+    padding: 10px 10px 10px 10px;
+    margin-left: 10px;
+}
+
+.meniu ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 20px;
+}
+.meniu ul li{
+    display: inline-block;
+}
+.meniu ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid black;
+}
+.meniu ul li a:hover{
+    background-color: black;
+    color: #DFC4E5;
+}
+.meniu ul li.active a{
+    background-color: black;
+    color: #DFC4E5;
+}
+
+.meniu{
+    max-width: 1200px;
+    margin: auto;
+}
+.text h1{
+    position: absolute;
+    top:40%;
+    left:27%;
+    color: black;
+    font-size: 75px;
+}
+.text p{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    font-size: 35px;
+}
+
+
+h2{
+    font-size: 40px;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+}
+img{
+    max-width: 100%;
+    padding-top: 10px;
+}
+
+/* Acasa */
+.info{
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    padding: 10px 0px 40px 10px;
+    text-align: center;
+}
+.info ul{
+    list-style-type: none;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+.info ul li{
+    padding-top: 10px;
+}
+
+p{
+ font-size: 20px;
+ padding: 10px 0px 10px 10px;   
+}
+.echipa h2{
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+.echipa img{
+    max-width: 40%;
+    float: left;
+    border: 3px solid black;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 10px 10px 10px 10px;
+}
+.echipa p{ 
+ font-family: 'Barlow', sans-serif;
+ font-size: 20px;
+ padding: 120px 50px 200px 50px; 
+    
+}
+.premii h3{
+    font-size: 27px;
+    text-align: center;
+    padding-top: 15px;
+}
+.premii ol{
+    font-size: 20px;
+    padding: 30px 0px 30px 70px;
+}
+
+/* Servicii */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 30px 10px 45px 40px;
+  font-size: 20px;
+} 
+.column img{
+    float: left;
+    max-width: 100px;
+    padding: 20px 30px 90px 10px;
+    margin-bottom: 90px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column h3{
+    padding-bottom: 19px;
+    text-align: center;
+}
+.column li{
+    padding-top: 13px;
+}
+
+hr{
+  display: block;
+  width: 6%;
+  margin:auto;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.orar{
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+.orar h2{
+    text-align: center;
+    padding: 10px 0px 20px 0px;
+}
+.orar ul{
+    list-style-type: none;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px 0px 10px 30px;
+}
+.orar ul li{
+    background-color: #fafafa;
+    margin-left: 500px;
+    margin-right: 500px;
+    font-size: 23px;
+    padding: 30px 40px;
+}
+
+
+/* Galerie */
+.intro p{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 23px;
+}
+
+.galerie {
+  float: left;
+  width: 33.33%;
+  padding: 30px 10px 45px 40px;
+  font-size: 20px;
+}
+
+
+/* Contact */
+.contact{ 
+   text-align: center;
+    padding-bottom: 20px;
+}
+.contact img{
+    max-width: 100px;
+    padding: 45px 15px 30px 15px;
+}
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+}  
